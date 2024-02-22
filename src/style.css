@@ -1,0 +1,107 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-header {
+    margin: 20px 0;
+  }
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .content {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center */
+  }
+
+  .mars-image {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  
+  .task-manager {
+    width: 75%;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .task-manager form {
+    margin-bottom: 10px;
+  }
+  
+  .task-manager table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-manager th,
+  .task-manager td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .task-manager th {
+    background-color: #f2f2f2;
+  }
+  
+  .task-manager tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .task-manager tr:hover {
+    background-color: #ddd;
+  }
+  
+  .task-manager input[type='text'] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .task-manager button {
+    margin-right: 5px;
+  }
+  
+  .side-panel {
+    width: 20%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+  }
+  .side-panel p {
+    margin-bottom: 10px;
+  }
+  
+  .side-panel button {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+  
